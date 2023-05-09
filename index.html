@@ -5,13 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sam Davis</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+
+    <!-------------------------------- CSS Links ---------------------------->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+
   </head>
-  <body>
+
+  <body class="content">
+    <script src="./js/navbar.js"></script>
+
     <main>
-        <h1>Welcome to My Website</h1>  
+      <script src="./js/typeit.js"></script>
+      <img id="mainphoto" src="https://images.squarespace-cdn.com/content/v1/606cf5ac599358761ebfe434/1617755555733-QMPPDKB8QO02L3UGFVUY/circuit-326094_960_720.jpg"></img>
+      
+      <div id="header" class="header">
+        <div> I'm Sam Davis;
+          <a id="typewriter"></a></div>
+          <script>
+            const instance = new TypeIt("#typewriter", { 
+                speed: 125, loop: true
+            })
+              .type("Comp Sci Graduate", { delay: 300 })
+              .pause(300)
+              .delete(20)
+              .type("Tech Enthusiast", { delay: 300 })
+              .pause(300)
+              .delete(20)
+              .type("Engineer", { delay: 300 })
+              .pause(300)
+              .delete(20)
+              .pause(1000)
+              .go();
+          </script>
+        </div>
+    </div>
+    <div id="quicklinks" class="quicklinks"> 
+      Quick Links:
+      
+
+    </div>
+
     </main>
-	<script src="index.js"></script>
+	<!--script src="index.js"></script-->
   </body>
+
 </html>
