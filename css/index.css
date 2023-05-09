@@ -1,0 +1,42 @@
+#mainphoto {
+    position: fixed;
+    right: 0;
+    padding-top: 2%;
+    height: auto;
+    width: 50%;
+}
+
+@media only screen and (max-width: 40em) {
+    #mainphoto {
+        display: none;
+    }
+    .header{
+        WIDTH: 100%;
+    }
+}
+
+@font-face {
+    font-family: acumin-pro;
+    src: url("../assets/Acumin-RPro.otf") format("opentype");
+}
+
+.header {
+    position: fixed;
+    font-family: acumin-pro;
+    font-weight: 500;
+    font-size: calc((2.3 - 1) * 1.2vw + 1rem);
+    text-align: center;
+    left: 0;
+    padding-top: 4rem;
+    padding-left: 4%;
+}
+
+#quicklinks {
+position: fixed;
+bottom: 0;
+padding-left: 4%;
+height: 50%;
+width: 50%;
+border: 1px solid black;
+}
+
