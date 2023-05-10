@@ -2,14 +2,15 @@
     width: 100%;
     object-fit: contain;
     object-position: center;
-    margin-bottom: 5rem;
-
+    margin-bottom: 4rem;
 }
+
 
 #photocontainer {
     width: 100%;
     height: 100%;
     grid-area: mainphoto;
+
 }
 
 
@@ -54,51 +55,69 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+
 }
 
 .quicklinks li {
-    border: 1px solid black;
-    border-radius: 0.25rem;
+    border-radius: 10px;
     margin: .5rem 0;
-    background-size: cover;
-    background-position: center;
-    background-color: gray;
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-attachment: fixed;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(20deg, rgba(255, 69, 0, 0.5) 15%, rgba(110, 191, 194, 0.5) 40%);
+    /* background-image: linear-gradient(20deg, rgba(0, 0, 0, 1) 3%, rgba(255, 255, 255, 1) 40%); */
 
 }
 
-.quicklinks li a {
+.quicklinks li section {
+    /* border: 0.4rem solid transparent; */
+    border-radius: 10px;
+    /* background-clip: padding-box; */
+    filter: grayscale(90%);
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.quicklinks li section a {
     width: 100%;
     height: 100%;
     padding: 3rem 3.5rem;
+    border-radius: 10px;
     display: block;
-
-
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 1), 0 0 0.5rem rgba(0, 0, 0, 1);
 }
 
-.quicklinks li a:link,
-.quicklinks li a:visited {
+
+.quicklinks li section a:link,
+.quicklinks li section a:visited {
     color: white;
     text-decoration: none;
 }
 
-.quicklinks li a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+#button1 section {
+    background-image: url("https://img.freepik.com/premium-photo/close-up-handshake-modern-office_709984-331.jpg?w=2000");
+
 }
 
-#button1 {
-    /* background-image: url("https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"); */
+#button2 section {
+    background-image: url("https://www.brother.eu/-/media/images/brother-uk/blog/header-images/workplace-survey-reveals-far-reaching-impact-messy-desks-2x.jpg?rev=af88b9b18ba04b7db833872edd958a2f&mw=1170&hash=0AB1DB664A8AD846324E2238B31F07943C70F0D2");
+
 }
 
-#button2 {
-    /* background-image: url("https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"); */
+#button3 section {
+    background-image: url("https://media.architecturaldigest.com/photos/58d55b5246c96f35ad8975b1/16:9/w_1280,c_limit/modern-living-room-new-york-new-york-200711-3_1000-watermarked.jpg");
+
 }
 
-#button3 {
-    /* background-image: url("https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"); */
-}
+#button4 section {
+    background-image: url("https://wp-media.labs.com/wp-content/uploads/2019/02/01140218/Modern-Meeting-Room-Design-Header-Image1.jpg");
 
-#button4 {
-    /* background-image: url("https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"); */
 }
 
 

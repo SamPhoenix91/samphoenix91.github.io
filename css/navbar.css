@@ -181,3 +181,28 @@
 	padding-top: 5px;
 	height: 50px
 }
+
+#wip {
+	color: orangered;
+	display: block;
+	text-align: center;
+	animation-name: alert;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-shadow: 0 0 10px orangered;
+
+
+}
+
+@keyframes alert {
+	0% {
+		text-shadow: 0 0 0px orangered;
+	}
+
+	50% {
+		text-shadow: 0 0 5px orangered;
+	}
+
+	100% {
+		text-shadow: 0 0 0px orangered;
+	}
