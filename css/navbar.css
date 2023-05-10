@@ -169,6 +169,10 @@
 	#menu input:checked~ul {
 		display: block
 	}
+
+	#menu label {
+		display: none;
+	}
 }
 
 #logo {
