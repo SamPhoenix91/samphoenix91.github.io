@@ -115,84 +115,15 @@
 	color: #444444;
 }
 
-@media screen and (max-width: 40em) {
-	#menu {
-		position: relative
-	}
-
-	#menu ul {
-		background: #111;
-		position: absolute;
-		top: 100%;
-		right: 0;
-		left: 0;
-		z-index: 3;
-		height: auto;
-		display: none
-	}
-
-	#menu ul.sub-menus {
-		width: 100%;
-		position: static;
-	}
-
-	#menu ul.sub-menus a {
-		padding-left: 30px;
-	}
-
-	#menu li {
-		display: block;
-		float: none;
-		width: auto;
-	}
-
-	#menu input,
-	#menu label {
-		position: absolute;
-		top: 0;
-		left: 0;
-		display: block
-	}
-
-	#menu input {
-		z-index: 4
-	}
-
-	#menu input:checked+label {
-		color: white
-	}
-
-	#menu input:checked+label:before {
-		content: "\00d7"
-	}
-
-	#menu input:checked~ul {
-		display: block
-	}
-
-	#menu label {
-		display: none;
-	}
-}
 
 #logo {
 	float: left;
 	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 5px;
 	height: 50px
 }
 
-#wip {
-	color: orangered;
-	display: block;
-	text-align: center;
-	animation-name: alert;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	text-shadow: 0 0 10px orangered;
-
-
-}
 
 @keyframes alert {
 	0% {
@@ -206,3 +137,159 @@
 	100% {
 		text-shadow: 0 0 0px orangered;
 	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Hamburger Menu */
+
+
+
+#hamburger {
+	padding-left: 1rem;
+	display: none;
+	margin-right: 4.5rem;
+}
+
+#menu-toggle {
+	display: none;
+	<input id="menu-toggle" type="checkbox" />
+}
+
+#menu-toggle:checked~#menu {
+	transform: translateY(21rem);
+}
+
+.menu-button {
+	padding-top: 0.8rem;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.menu-button>span,
+.menu-button>span::before,
+.menu-button>span::after {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #616161;
+	transition-duration: .25s;
+}
+
+.menu-button>span::before {
+	content: '';
+	top: -8px;
+}
+
+.menu-button>span::after {
+	content: '';
+	top: 8px;
+}
+
+#menu-toggle:checked+section>label>span {
+	transform: rotate(45deg);
+}
+
+#menu-toggle:checked+section>label>span::before {
+	opacity: 0;
+}
+
+#menu-toggle:checked+section>label>span::after {
+	top: 0;
+	transform: rotate(90deg);
+}
+
+#menu-toggle:checked~section {
+	left: 0 !important;
+}
+
+
+
+
+
+
+
+
+/* Phone screen / swap to hamburger menu */
+@media screen and (max-width: 50em) {
+	#Navbar-placeholder {
+		background-color: rgba(200, 200, 200, 0.9);
+	}
+
+	#menu {
+		position: absolute;
+		left: 0rem;
+		top: -17rem;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		background-color: rgba(200, 200, 200, 0.9);
+		transition-duration: .25s;
+		;
+	}
+
+	#menu a {
+		font-weight: 500;
+	}
+
+	;
+
+	#menu ul.sub-menus a {
+		padding-left: 30px;
+	}
+
+	#menu li {
+		display: block;
+		float: none;
+		width: auto;
+
+	}
+
+	#hamburger {
+		display: block;
+	}
+
+
+	#wip {
+		width: 5rem;
+		margin-right: 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/* WIP */
+
+#wip {
+	color: orangered;
+	display: block;
+	text-align: center;
+	animation-name: alert;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-shadow: 0 0 10px orangered;
+
+
+}
