@@ -2,13 +2,12 @@
 
 * {
 	letter-spacing: 0em;
-	line-height: 1.8em;
+	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	padding-top: 60px;
 
 	font-family: Poppins;
 	font-weight: 300;
@@ -16,4 +15,5 @@ body {
 	font-style: normal;
 	text-transform: none;
 	text-underline-position: under;
+
 }

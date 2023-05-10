@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sam Davis</title>
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sam Davis</title>
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
 
 
-    <!-------------------------------- CSS Links ---------------------------->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
+  <!-------------------------------- CSS Links ---------------------------->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/index.css">
 
-  </head>
+</head>
 
-  <body class="content">
-    <script src="./js/navbar.js"></script>
+<body class="content">
+  <header id="Navbar-Placeholder"></header>
+  <script src="./js/navbar.js"></script>
 
-    <main>
-      <script src="./js/typeit.js"></script>
-      <img id="mainphoto" src="https://images.squarespace-cdn.com/content/v1/606cf5ac599358761ebfe434/1617755555733-QMPPDKB8QO02L3UGFVUY/circuit-326094_960_720.jpg"></img>
-      
-      <div id="header" class="header">
-        <div> I'm Sam Davis;
-          <a id="typewriter"></a></div>
-          <script>
-            const instance = new TypeIt("#typewriter", { 
-                speed: 125, loop: true
-            })
-              .type("Comp Sci Graduate", { delay: 300 })
-              .pause(300)
-              .delete(20)
-              .type("Tech Enthusiast", { delay: 300 })
-              .pause(300)
-              .delete(20)
-              .type("Engineer", { delay: 300 })
-              .pause(300)
-              .delete(20)
-              .pause(1000)
-              .go();
-          </script>
-        </div>
+  <script src="./js/typeit.js"></script>
+
+
+  <main>
+    <p class="text"> I'm Sam Davis; <br>
+      <span id="typewriter"></span>
+    </p>
+    <script>
+      const instance = new TypeIt("#typewriter", {
+        speed: 125, loop: true
+      })
+        .type("Comp Sci Graduate", { delay: 300 })
+        .pause(300)
+        .delete(20)
+        .type("Tech Enthusiast", { delay: 300 })
+        .pause(300)
+        .delete(20)
+        .type("Engineer", { delay: 300 })
+        .pause(300)
+        .delete(20)
+        .pause(1000)
+        .go();
+    </script>
+
+
+    <div id="photocontainer">
+      <img id="photo"
+        src="https://images.squarespace-cdn.com/content/v1/606cf5ac599358761ebfe434/1617755555733-QMPPDKB8QO02L3UGFVUY/circuit-326094_960_720.jpg">
     </div>
-    <div id="quicklinks" class="quicklinks"> 
-      Quick Links:
-      
 
+    <div id="quicklinks">
+
+      <ul class="quicklinks">
+        <li id="button1"><a href="">Resume</a></li>
+        <li id="button2"><a href="">LinkedIn</a></li>
+        <li id="button3"><a href="">GitHub</a></li>
+        <li id="button4"><a href="">Email</a></li>
     </div>
 
-    </main>
-	<!--script src="index.js"></script-->
-  </body>
+  </main>
+  <!--script src="index.js"></script-->
+</body>
 
 </html>
