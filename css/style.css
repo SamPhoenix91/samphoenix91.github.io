@@ -3,6 +3,7 @@
 * {
 	letter-spacing: 0em;
 	box-sizing: border-box;
+	caret-color: transparent;
 }
 
 body {
