@@ -1,7 +1,6 @@
 var html = `
 
 
-
 <link rel="stylesheet" href="./css/navbar.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <input id="menu-toggle" type="checkbox" />
@@ -12,7 +11,6 @@ var html = `
     </label>
 </section>
 <img src="./assets/Logo.png" alt="Logo" id="logo">
-<span id="wip">Work in Progress</span>
 <nav id='menu'>
     <script src='./js/menu.js'></script>
     <ul>

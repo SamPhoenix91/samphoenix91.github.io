@@ -1,0 +1,54 @@
+@media (prefers-color-scheme: dark) {
+
+    body,
+    .text,
+    #typewriter,
+    p,
+    h1,
+    h2,
+    h3,
+    main li {
+        color: #d8d4cf !important;
+        background-color: #131516 !important;
+    }
+
+
+    #Navbar-Placeholder,
+    #Footer-Placeholder,
+    #menu ul.sub-menus li {
+        color: #d8d4cf !important;
+        background-color: rgba(19, 21, 22, 0.8) !important;
+    }
+
+    #Navbar-Placeholder a,
+    #Navbar-Placeholder i,
+    i,
+    #Footer-Placeholder p,
+    #issuereport {
+        color: #d8d4cf !important;
+        background: rgba(0, 0, 0, 0) !important;
+    }
+
+    #Navbar-Placeholder ul,
+    #Navbar-Placeholder li {
+
+        color: #d8d4cf !important;
+        background: rgba(0, 0, 0, 0) !important;
+    }
+
+    @media screen and (max-width: 50em) {
+
+
+        #Navbar-Placeholder ul,
+        #Navbar-Placeholder li {
+
+            background-color: rgba(19, 21, 22, 0.8) !important;
+        }
+    }
+
+    /* --darkreader-neutral-background: #131516;
+        --darkreader-neutral-text: #d8d4cf;
+        --darkreader-selection-background: #004daa;
+        --darkreader-selection-text: #e8e6e3; */
+
+}

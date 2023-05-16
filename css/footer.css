@@ -1,0 +1,82 @@
+#Footer-Placeholder {
+	background: rgba(255, 255, 255, 0.7);
+	color: #FFFF;
+	height: 2.5em;
+	position: sticky;
+	bottom: 0;
+	margin: 0;
+	padding: 0.5rem;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+}
+
+@keyframes alert {
+	0% {
+		text-shadow: 0 0 0px orangered;
+	}
+
+	50% {
+		text-shadow: 0 0 5px orangered;
+	}
+
+	100% {
+		text-shadow: 0 0 0px orangered;
+	}
+
+}
+
+/* Phone screen / swap to hamburger menu */
+@media screen and (max-width: 50em) {
+	#Footer-Placeholder {
+		padding-top: 1rem;
+	}
+
+	#wip {
+		font-size: 0.7rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer p,
+{
+font-size: 1rem;
+padding-top: 0.5rem;
+background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#issuereport {
+	font-size: 0.7rem;
+	width: 13rem;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0) !important;
+	text-decoration: none !important;
+}
+
+/* WIP */
+#wip {
+	color: orangered;
+	display: block;
+	text-align: center;
+	animation-name: alert;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-shadow: 0 0 10px orangered;
+	opacity: 100%;
+	padding: 0.5rem;
+
+
+}
