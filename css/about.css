@@ -1,14 +1,59 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300";
+
+* {
+    letter-spacing: 0em;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: calc((0.2) * 1vw + 1rem);
+    font-style: normal;
+    text-transform: none;
+    text-underline-position: under;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: calc((0.5) * 1vw + 1rem);
+    font-weight: 500;
+    padding-top: 2rem;
+}
+
+.list {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
 main {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     grid-template-areas:
-        "linkedin intro"
-        "paragraph paragraph";
+        "linkedin intro intro intro"
+        "qualifications work skills programming";
     margin-top: 4rem;
     padding: 1rem;
 
+}
+
+#Profile {
+    display: inline-block;
+    text-align: center;
+
+    margin: auto;
+    border: 0;
 }
 
 #linkedin {
@@ -21,17 +66,14 @@ main {
     border: 0;
 }
 
-
-#1 {
-    grid-area: intro;
+title {
+    color: black;
+    font-size: calc((1.5 - 1) * 1.2vw + 1rem);
 }
 
-#2 {
-    grid-area: paragraph;
-}
-
-#3 {
-    grid-area: paragraph;
+p {
+    padding: 0 1rem;
+    margin-block-start: 0.5em;
 }
 
 @media screen and (max-width: 79em) {}
@@ -42,10 +84,7 @@ main {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "linkedin intro"
-            "paragraph paragraph";
+        grid-template-areas: "title" "linkedin" "intro" "qualifications" "work" "skills" "programming";
         margin-top: 4rem;
         padding: 1rem;
 

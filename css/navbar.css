@@ -141,15 +141,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 /* Hamburger Menu */
 
 
@@ -268,6 +259,12 @@
 	#wip {
 		width: 6rem;
 		margin-right: 1rem;
+	}
+
+	#menu li:hover ul.sub-menus {
+		position: relative;
+		width: 100%;
+		transition-duration: .25s;
 	}
 }
 

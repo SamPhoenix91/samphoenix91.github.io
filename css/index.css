@@ -1,3 +1,24 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300";
+
+* {
+    letter-spacing: 0em;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+    font-style: normal;
+    text-transform: none;
+    text-underline-position: under;
+
+}
+
 #photo {
     width: 100%;
     object-fit: contain;
