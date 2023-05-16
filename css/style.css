@@ -65,7 +65,8 @@ h3 {
     }
 
     #Navbar-Placeholder a,
-    #Navbar-Placeholder i {
+    #Navbar-Placeholder i,
+    i {
         color: #d8d4cf !important;
         background: rgba(0, 0, 0, 0) !important;
     }
