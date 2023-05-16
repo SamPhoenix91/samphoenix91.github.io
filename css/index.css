@@ -139,22 +139,22 @@ main {
 }
 
 #button1 section {
-    background-image: url("../assets/About\ Me.jpg");
+    background-image: url("../assets/index/About\ Me.jpg");
     /* Image by Drazen Zigic on Freepik */
 }
 
 #button2 section {
-    background-image: url("../assets/Resume.jpg");
+    background-image: url("../assets/index/Resume.jpg");
     /* Image by rawpixel.com on Freepik */
 }
 
 #button3 section {
-    background-image: url("../assets/Projects.jpg");
+    background-image: url("../assets/index/Projects.jpg");
     /* Image by ikaika on Freepik? */
 }
 
 #button4 section {
-    background-image: url("../assets/Linkedin.jpg");
+    background-image: url("../assets/index/Linkedin.jpg");
     /* Image by pressfoto on Freepik */
 }
 

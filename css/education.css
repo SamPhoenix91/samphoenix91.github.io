@@ -10,38 +10,23 @@ ul {
 main {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr;
     grid-template-areas:
-        "linkedin intro intro intro"
-        "qualifications work skills programming";
+        "cphoto uphoto"
+        "college university";
     /* margin-top: 1rem; */
     padding: 1rem 1rem 0 1rem;
 }
 
-#Profile {
-    display: inline-block;
-    text-align: center;
-
-    margin: auto;
-    border: 0;
-}
-
-#linkedin {
-    display: inline-block;
-    text-align: center;
-    width: 20rem;
-    height: 16rem;
-    margin: auto;
-    grid-area: linkedin;
-    border: 0;
-}
-
-
-
 p {
     padding: 0 1rem;
     margin-block-start: 0.5em;
+}
+
+#image {
+    width: 100%;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 79em) {}
@@ -52,7 +37,7 @@ p {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas: "linkedin" "intro" "qualifications" "work" "skills" "programming";
+        grid-template-areas: "cphoto" "uphoto" "college" "university";
         padding: 1rem;
 
     }
