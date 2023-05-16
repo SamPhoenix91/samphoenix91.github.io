@@ -141,6 +141,15 @@
 }
 
 
+
+
+
+
+
+
+
+
+
 /* Hamburger Menu */
 
 
@@ -287,6 +296,7 @@
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	text-shadow: 0 0 10px orangered;
+	opacity: 100%;
 
 
 }

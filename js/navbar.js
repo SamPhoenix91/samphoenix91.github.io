@@ -19,7 +19,7 @@ var html = `
         <li><a href='./index.html'>Home</a></li>
         <li><a class='dropdown-arrow'>About</a>
             <ul class='sub-menus'>
-                <li><a href='./about.html'>About Me</a></li>
+                <li><a href='./about.html'>Profile</a></li>
                 <li><a href='./education.html'>Education</a></li>
                 <li><a href='./cv.html'>CV</a></li>
             </ul>
