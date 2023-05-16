@@ -1,0 +1,54 @@
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "linkedin intro"
+        "paragraph paragraph";
+    margin-top: 4rem;
+    padding: 1rem;
+
+}
+
+#linkedin {
+    display: inline-block;
+    text-align: center;
+    width: 20rem;
+    height: 16rem;
+    margin: auto;
+    grid-area: linkedin;
+    border: 0;
+}
+
+
+#1 {
+    grid-area: intro;
+}
+
+#2 {
+    grid-area: paragraph;
+}
+
+#3 {
+    grid-area: paragraph;
+}
+
+@media screen and (max-width: 79em) {}
+
+@media screen and (max-width: 50em) {
+
+    main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "linkedin intro"
+            "paragraph paragraph";
+        margin-top: 4rem;
+        padding: 1rem;
+
+    }
+
+}
