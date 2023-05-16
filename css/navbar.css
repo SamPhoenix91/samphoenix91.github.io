@@ -166,7 +166,7 @@
 }
 
 #menu-toggle:checked~#menu {
-	transform: translateY(21rem);
+	transform: translateY(24rem);
 }
 
 .menu-button {
@@ -234,7 +234,7 @@
 	#menu {
 		position: absolute;
 		left: 0rem;
-		top: -17rem;
+		top: -20rem;
 		width: 100%;
 		height: auto;
 		text-align: center;
