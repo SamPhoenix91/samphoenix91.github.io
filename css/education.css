@@ -37,7 +37,7 @@ p {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas: "cphoto" "uphoto" "college" "university";
+        grid-template-areas: "cphoto" "college" "uphoto" "university";
         padding: 1rem;
 
     }
