@@ -54,13 +54,14 @@
 #copyright {
 	font-size: 1rem;
 	padding-top: 0.5rem;
+	width: 10rem;
 	background-color: rgba(0, 0, 0, 0) !important;
 	text-decoration: none !important;
 }
 
 #issuereport {
-	font-size: 0.7rem;
-	width: 13rem;
+	font-size: 0.6rem;
+	width: 10rem;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0) !important;
 	text-decoration: none !important;
