@@ -1,0 +1,16 @@
+{
+  "folderNames": [
+    {
+      "folderName": "Deepstack AI",
+      "description": "Adding Deepstack AI to Motioneye for object detection"
+    },
+    {
+      "folderName": "Network Diagram",
+      "description": "Visualising my home and apartment networks"
+    },
+    {
+      "folderName": "Home Assistant",
+      "description": "Using Home Assistant to automate my home"
+    }
+  ]
+}
