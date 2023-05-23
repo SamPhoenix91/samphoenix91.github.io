@@ -11,10 +11,11 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 0.7fr 0.3fr;
     grid-template-areas:
         "linkedin intro intro intro"
-        "qualifications work skills programming";
+        "qualifications work skills programming"
+        "close close close close";
     /* margin-top: 1rem; */
     padding: 1rem 1rem 0 1rem;
 }
@@ -35,6 +36,14 @@ main {
     margin: auto;
     grid-area: linkedin;
     border: 0;
+}
+
+#Closing
+{
+    /* italic */
+    font-style: italic;
+    font-weight: bold;
+
 }
 
 
