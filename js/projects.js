@@ -16,7 +16,7 @@ function generateGrid(folderNames) {
     gridItem.className = "grid-item";
 
     const image = document.createElement("img");
-    image.src = `projects/${folder.folderName}/images/coverimage.jpg`;
+    image.src = `/projects/${folder.folderName}/images/coverimage.jpg`;
     image.onerror = function () {
       // If coverimage.png is not found, display a default image
       image.src = "/assets/projects/default-image.jpg";
@@ -39,7 +39,7 @@ function generateGrid(folderNames) {
     gridItem.appendChild(overlay);
 
     const link = document.createElement("a");
-    link.href = `projects/${folder.folderName}/index.html`;
+    link.href = `/projects/${folder.folderName}`;
     link.appendChild(gridItem);
 
     folderGrid.appendChild(link);

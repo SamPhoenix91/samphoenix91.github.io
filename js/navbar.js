@@ -14,15 +14,15 @@ var html = `
 <nav id='menu'>
     <script src='/js/menu.js'></script>
     <ul>
-        <li><a href='/index.html'>Home</a></li>
+        <li><a href='/'>Home</a></li>
         <li><a class='dropdown-arrow'>About</a>
             <ul class='sub-menus'>
-                <li><a href='/about.html'>Profile</a></li>
-                <li><a href='/education.html'>Education</a></li>
-                <li><a href='/cv.html'>CV</a></li>
+                <li><a href='/profile'>Profile</a></li>
+                <li><a href='/education'>Education</a></li>
+                <li><a href='/cv'>CV</a></li>
             </ul>
         </li>
-        <li><a href='/projects.html'>Projects</a></li>
+        <li><a href='/projects'>Projects</a></li>
         <li><a class='dropdown-arrow'>Links</a>
             <ul class='sub-menus'>
                 <li><a href='https://media.samdserver.com'>Media Server</a></li>
