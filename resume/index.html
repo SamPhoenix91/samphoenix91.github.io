@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Template - Sam Davis</title>
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+
+    <!-------------------------------- CSS Links ---------------------------->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/resume.css" />
+  </head>
+
+  <body class="content">
+    <header id="Navbar-Placeholder"></header>
+    <script src="/js/navbar.js"></script>
+    <main>
+      <iframe style="width: 100vw; height: 100%;" src="https://samdavis.uk/json-resume"></iframe>
+      <a id="actionbutton" href="https://samdavis.uk/json-resume/Sam-Davis-CV.pdf" target="_blank"> <img src="./download.svg" width="30px" height="30px"> </a>
+    </main>
+    <footer id="Footer-Placeholder"></footer>
+    <script src="/js/footer.js"></script>
+  </body>
+</html>
+
+<style>
+  body, main, iframe {
+    height: 100%;
+  }
+  html {
+    height: calc(100% - 4rem);
+  }
+
+  #actionbutton {
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    z-index: 100;
+  }
+</style>
