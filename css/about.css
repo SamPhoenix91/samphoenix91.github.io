@@ -32,7 +32,7 @@ main {
     display: inline-block;
     text-align: center;
     width: 20rem;
-    height: 16rem;
+    height: 20rem;
     margin: auto;
     grid-area: linkedin;
     border: 0;
@@ -43,6 +43,7 @@ main {
     /* italic */
     font-style: italic;
     font-weight: bold;
+    grid-area: close;
 
 }
 
@@ -61,8 +62,10 @@ p {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas: "linkedin" "intro" "qualifications" "work" "skills" "programming";
+        grid-template-rows: min-content;
+        grid-template-areas: "linkedin" "intro" "qualifications" "work" "skills" "programming" "close";
         padding: 1rem;
+        padding-bottom: 2rem;
 
     }
 
