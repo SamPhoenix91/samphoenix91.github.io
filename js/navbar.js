@@ -18,7 +18,7 @@ var html = `
             <ul class='sub-menus'>
                 <li><a href='/profile'>Profile</a></li>
                 <li><a href='/education'>Education</a></li>
-                <li><a href='/cv'>CV</a></li>
+                <li><a href='/resume'>CV</a></li>
             </ul>
         </li>
         <li><a href='/projects'>Projects</a></li>
