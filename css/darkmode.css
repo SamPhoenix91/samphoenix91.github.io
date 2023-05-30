@@ -20,6 +20,11 @@
         background-color: rgba(19, 21, 22, 0.8) !important;
     }
 
+    .overlaytext {
+        background-color: rgba(0, 0, 0, 0) !important;
+        text-shadow: 0 0 0.5em #000000 !important;
+    }
+
     #Navbar-Placeholder a,
     #Navbar-Placeholder i,
     i,
@@ -50,5 +55,7 @@
         --darkreader-neutral-text: #d8d4cf;
         --darkreader-selection-background: #004daa;
         --darkreader-selection-text: #e8e6e3; */
+
+        
 
 }
