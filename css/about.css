@@ -11,7 +11,7 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.7fr 0.3fr;
+    grid-template-rows: 1fr 0.7fr 0.1fr;
     grid-template-areas:
         "linkedin intro intro intro"
         "qualifications work skills programming"

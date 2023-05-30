@@ -21,6 +21,10 @@ body {
 
 }
 
+main {
+    margin-bottom: 2rem;
+}
+
 h1 {
     text-align: center;
     font-size: calc((1) * 1.5vw + 1rem);
